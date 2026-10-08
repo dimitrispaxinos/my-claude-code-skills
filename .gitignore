@@ -1,0 +1,5 @@
+telegram.env
+*.env
+!telegram.env.example
+.DS_Store
+__pycache__/
