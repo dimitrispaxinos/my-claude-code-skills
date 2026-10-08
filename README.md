@@ -9,6 +9,8 @@ running many sessions at once on one machine.
 | [`session-registry`](skills/session-registry/SKILL.md) | `sessions` lists every live Claude Code session: which one is which, where each one is, which sessions have recently **edited the same file**, what ended recently (with the `--resume` command), and what's stale. Lets sessions avoid overwriting each other's work. |
 | [`telegram`](skills/telegram/SKILL.md) | `/telegram <msg>` posts to your Telegram, plus a **Stop hook** that pings you when a turn took 5+ minutes. The ping includes the session title, the repo, how long it took, and a one-sentence summary (written by Haiku) of what got done, or `❓ needs your input` if the session is waiting on a question. |
 
+Each skill folder has its own README with usage, setup and how it works.
+
 ## Requirements
 
 - Claude Code (v2.1.51+ for `--remote-control`) and a claude.ai subscription
